@@ -104,3 +104,7 @@ a:active{
     color: #FF655C;
     border-bottom-color: #FF655C;
 }
+
+ul{
+    list-style-type: none;
+}
