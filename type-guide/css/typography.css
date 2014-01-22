@@ -5,3 +5,7 @@
   - Burgendy: #4A0102 - rgb(74, 1, 2)
   - Dark Brown: #3D1302 - rgb(61, 19, 2)
  */
+
+html {
+  font: normal 100%/1.5 Helvetica,sans-serif; /* 16px/24px */
+}
