@@ -75,3 +75,8 @@ h1, h2, h3, h4, h5, h6,
 .brand-colour{
  color: #4A0102;   
 }
+
+.brand-family{
+    font-family: Helvetica, sans-serif;
+}
+    
