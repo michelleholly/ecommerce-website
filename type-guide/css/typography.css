@@ -65,3 +65,9 @@ small, .milli {
     font-size: 0.7901rem;
     line-height: 1.8984;
 }
+
+h1, h2, h3, h4, h5, h6,
+.brand{
+    font-family: Helvetica, sans-serif;
+    color: #540D01;
+}
