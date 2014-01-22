@@ -10,6 +10,12 @@ html {
   font: normal 100%/1.5 Helvetica,sans-serif; /* 16px/24px */
 }
 
+h1, h2, h3, h4, h5, h6,
+p, ul, ol, dl,
+blockquote, table, hr {
+  margin: 0 0 1.5rem;
+}
+
 .yotta {
     font-size: 2.2807rem;
     line-height: 1.3154;
