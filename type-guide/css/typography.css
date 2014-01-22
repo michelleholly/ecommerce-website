@@ -11,33 +11,41 @@ html {
 }
 
 .yotta {
-
+    font-size: 1.0000rem;
 }
 
 .zetta{
-    
+    font-size: 1.0000rem;
 }
 
 h1 .exa{
-    
+    font-size: 1.0000rem;
 }
 
 h2 .peta {
-    
+    font-size: 1.0000rem;
 }
 
 h3, .tera {
-    
+    font-size: 1.0000rem;
 }
 
 h4, .giga {
-    
+    font-size: 1.0000rem; 
 }
 
 h5, .mega {
-    
+    font-size: 1.0000rem;   
 }
 
 h6, .kilo {
+    font-size: 1.0000rem;    
+}
+
+small, .milli {
+    
+}
+
+.micro {
     
 }
