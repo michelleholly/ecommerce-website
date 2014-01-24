@@ -119,3 +119,14 @@ ul li:before{
     position: absolute;
     left: -1em;
 }
+
+th {
+  background-color: #FF988C;
+  text-align: left;
+}
+
+th, 
+td{
+  padding: 0.25rem;
+  border: 1px solid #FF655C;
+}
