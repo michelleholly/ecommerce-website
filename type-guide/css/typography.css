@@ -7,13 +7,13 @@
  */
 
 html {
-  font: normal 100%/1.5 Helvetica,sans-serif; /* 16px/24px */
+    font: normal 100%/1.5 Helvetica,sans-serif; /* 16px/24px */
 }
 
 h1, h2, h3, h4, h5, h6,
 p, ul, ol, dl,
 blockquote, table, hr {
-  margin: 0 0 1.5rem;
+    margin: 0 0 1.5rem;
 }
 
 .yotta {
@@ -73,7 +73,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .brand-colour{
- color: #4A0102;   
+    color: #4A0102;   
 }
 
 .brand-family{
@@ -122,6 +122,10 @@ ul li:before{
 
 blockquote{
     margin-left: 3rem;
+}
+
+table{
+    border-collapse: collapse;
 }
 
 th {
