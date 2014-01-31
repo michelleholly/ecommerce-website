@@ -7,7 +7,7 @@
     background-image: linear-gradient(to bottom, #540D01, #3D1302);
     border-radius:: 6px;
     box-shadow: 1px 1px 4px rgba(0,0,0,0.5);
-    border: 0;
+    border: 10px;
     color: #fff;
     font-weight: bold;
 }
@@ -15,6 +15,6 @@
 .btn-alt,
 .btn-alt:link,
 .btn-alt:visited{
-    background-color: #5d8332;
+    background-color: #540D01;
     background-image: linear-gradient(to bottom, #540D01, #3D1302);
 }
