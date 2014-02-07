@@ -1,7 +1,7 @@
 header{
 	text-align: center;
 	color: #525252;
-	font-family: yanone kaffeesatz, Helvetica, Arial, Sans Serif;
+	font-family: Helvetica, Arial, Sans Serif;
 	text-decoration:none;
 	list-style: none;
 }
@@ -159,4 +159,12 @@ header{
 	white-space: nowrap;
 	overflow: hidden;
 	display: block;	
+}
+
+.name{
+	height: 15rem;
+	text-align: center;
+	margin: 5rem 0;
+	letter-spacing: .15rem;
+	padding-top: 5rem;
 }
