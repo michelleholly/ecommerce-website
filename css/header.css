@@ -148,3 +148,15 @@ header{
 		display: none;
 	}
 }
+
+.spacing{
+	letter-spacing: .15rem;
+	padding: 1rem;
+}
+
+.hide-text {
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	display: block;	
+}
