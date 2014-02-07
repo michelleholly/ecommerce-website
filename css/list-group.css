@@ -6,7 +6,7 @@
     display: block;
 }
 
-.list-group-item-before{
+.list-group-item:before{
     content: "";   
 }
 
