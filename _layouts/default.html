@@ -27,17 +27,17 @@
 <header>
 		<a href="#nav" class="nav-btn hide-text">Navigation</a>
 		<nav class="nav nav-top" data-state="collapsed">
-				<a class="{%if page.url == '/' %}current{% endif %}"href="{{site.baseurl}}index.html" class="spacing">home</a>
-				<a class="{%if page.url contains 'camera' %}current{% endif %}"href="{{site.baseurl}}cameras.html" class="spacing">Cameras</a>
-				<a class="{%if page.url == 'about' %}current{% endif %}"href="{{site.baseurl}}about.html" class="spacing">About</a>
-				<a class="{%if page.url == 'cart' %}current{% endif %}"href="{{site.baseurl}}your-cart.html" class="spacing">Your Cart</a>
+				<a class="{% if page.url == '/' %}current{% endif %}"href="{{site.baseurl}}index.html" class="spacing">home</a>
+				<a class="{% if page.url == 'camera' %}current{% endif %}"href="{{site.baseurl}}cameras.html" class="spacing">Cameras</a>
+				<a class="{% if page.url == 'about' %}current{% endif %}"href="{{site.baseurl}}about.html" class="spacing">About</a>
+				<a class="{% if page.url == 'cart' %}current{% endif %}"href="{{site.baseurl}}your-cart.html" class="spacing">Your Cart</a>
 		</nav>
 		
 		<nav class="nav-ls">
-				<a class="{%if page.url == '/' %}current{% endif %}"href="{{site.baseurl}}index.html" class="spacing">home</a>
-				<a class="{%if page.url contains 'camera' %}current{% endif %}"href="{{site.baseurl}}cameras.html" class="spacing">Cameras</a>
-				<a class="{%if page.url == 'about' %}current{% endif %}"href="{{site.baseurl}}about.html" class="spacing">About</a>
-				<a class="{%if page.url == 'cart' %}current{% endif %}"href="{{site.baseurl}}your-cart.html" class="spacing">Your Cart</a>
+				<a class="{% if page.url == '/' %}current{% endif %}"href="{{site.baseurl}}index.html" class="spacing">home</a>
+				<a class="{% if page.url == 'camera' %}current{% endif %}"href="{{site.baseurl}}cameras.html" class="spacing">Cameras</a>
+				<a class="{% if page.url == 'about' %}current{% endif %}"href="{{site.baseurl}}about.html" class="spacing">About</a>
+				<a class="{% if page.url == 'cart' %}current{% endif %}"href="{{site.baseurl}}your-cart.html" class="spacing">Your Cart</a>
 		</nav>
     
         <div class="light">
