@@ -168,3 +168,15 @@ header{
 	letter-spacing: .15rem;
 	padding-top: 5rem;
 }
+
+.banner{
+    background: rgba(59,203,187,1.00) url("../images/banner.jpg") no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    padding: 5rem 1rem 1rem;
+}
+
+.banner h2 {
+    color: #fff;
+}
+    
