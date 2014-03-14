@@ -27,10 +27,10 @@
 <header>
 		<a href="#nav" class="nav-btn hide-text">Navigation</a>
 		<nav class="nav nav-top" data-state="collapsed">
-				<a href="index.html" class="spacing">home</a>
-				<a href="cameras.html" class="spacing">Cameras</a>
-				<a href="about.html" class="spacing">About</a>
-				<a href="your-cart.html" class="spacing">Your Cart</a>
+				<a class="{%if page.url == '/' %}"href="{{site.baseurl}}index.html" class="spacing">home</a>
+				<a class="{%if page.url contains 'camera' %}"href="cameras.html" class="spacing">Cameras</a>
+				<a class="{%if page.url == '/' %}"href="about.html" class="spacing">About</a>
+				<a class="{%if page.url == '/' %}"href="your-cart.html" class="spacing">Your Cart</a>
 		</nav>
 		
 		<nav class="nav-ls">
