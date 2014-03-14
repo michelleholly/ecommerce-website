@@ -28,16 +28,16 @@
 		<a href="#nav" class="nav-btn hide-text">Navigation</a>
 		<nav class="nav nav-top" data-state="collapsed">
 				<a href="index.html" class="spacing">home</a>
-				<a href="buytickets.html" class="spacing">Cameras</a>
-				<a href="auction.html" class="spacing">About</a>
-				<a href="galadetails.html" class="spacing">Your Cart</a>
+				<a href="cameras.html" class="spacing">Cameras</a>
+				<a href="about.html" class="spacing">About</a>
+				<a href="your-cart.html" class="spacing">Your Cart</a>
 		</nav>
 		
 		<nav class="nav-ls">
 				<a href="index.html" class="spacing">home</a>
-				<a href="buytickets.html" class="spacing">Cameras</a>
-				<a href="auction.html" class="spacing">About</a>
-				<a href="galadetails.html" class="spacing">Your Cart</a>
+				<a href="cameras.html" class="spacing">Cameras</a>
+				<a href="about.html" class="spacing">About</a>
+				<a href="your-cart.html" class="spacing">Your Cart</a>
 		</nav>
     
         <div class="light">
@@ -51,15 +51,19 @@
 			<p>All Vintage</p>
 		</div>
 </header>
-    
-    {{content}}
+    {% if page.showbanner %}
+    <div class="banner">
+        <h2>{{page.banner.text}}</h2>
+    </div>
+    {% endif}
+{{content}}
     
 <footer>
 		<nav class="nav-footer">
 			<a href="index.html" class="spacing">home</a>
-			<a href="buytickets.html" class="spacing">cameras</a>
-			<a href="auction.html" class="spacing">about</a>
-			<a href="galadetails.html" class="spacing">your cart</a>
+			<a href="cameras.html" class="spacing">cameras</a>
+			<a href="abouthtml" class="spacing">about</a>
+			<a href="your-cart.html" class="spacing">your cart</a>
 		</nav>
 
 		<section>
