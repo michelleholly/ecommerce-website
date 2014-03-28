@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Flexslider Example</title>
+		<link href="css/reset.css" rel="stylesheet">
+		<link rel="stylesheet" href="flexslider/flexslider.css" type="text/css">
+		<link href="css/general.css" rel="stylesheet">
+		<meta name="handheldfriendly" content="true">
+		<meta name="mobileoptimized" content="240">
+		<meta name="viewport" content="width=device-width,initial-scale=1" >
+	</head>
+
+	<body>
+	
+	<!-- Flexslider Starts -->
+	<div class="flexslider">
+	  <ul class="slides">
+  	 	<li>
+    	  	<img src="http://placekitten.com/g/200/300" alt="A cute Kitten">
+   		</li>
+   		 <li>
+   	   		<img src="http://placecage.com/c/200/300" alt="crazy cage">
+				<p class="flex-caption"> Cage why you so crazy! (Caption)</p>
+   	 	</li>
+   		 <li>
+		 		<a href="http://placekitten.com">
+   	   		<img src="http://placekitten.com/200/298" alt="ity bity kitten">
+				<p class="flex-caption"> Cute Kitten! (Caption)</p>
+  	 	 </li>
+  		</ul>
+	</div>
+	<!-- Flexslider Ends -->
+
+	
+	<!-- Import JQuery Library-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+	<!-- Import JQuery Flexslider Plugin-->
+	<script src="flexslider/jquery.flexslider-min.js"></script>
+	<!-- Fire/run the plugin (tell it to GO!) -->
+	<script type="text/javascript" charset="utf-8">
+  		$(window).load(function() {
+    		$('.flexslider').flexslider({
+				animation: "slide"
+				});
+ 		 });
+</script>
+	</body>
+</html>
