@@ -24,21 +24,21 @@
 </head>
 <body>
 
-<header>
+<header role="banner">
 		<a href="#nav" class="nav-btn hide-text"></a>
 		<nav class="nav nav-top" data-state="collapsed">
-				<a class="{% if page.url == '/' %}current{% endif %}"href="{{site.baseurl}}/index">Home</a>
-				<a class="{% if page.url == 'camera' %}current{% endif %}"href="{{site.baseurl}}/cameras">Cameras</a>
-				<a class="{% if page.url == 'about' %}current{% endif %}"href="{{site.baseurl}}/about">About</a>
+				<a class="{% if page.url == '/' %}current{% endif %}"href="{{site.baseurl}}/"><span>Home</span></a>
+				<a class="{% if page.url == 'camera' %}current{% endif %}"href="{{site.baseurl}}/product/">Products</a>
+				<a class="{% if page.url == 'about' %}current{% endif %}"href="{{site.baseurl}}/about/">About</a>
 		</nav>
 		
-		<nav class="nav-ls">
-				<a class="{% if page.url == '/' %}current{% endif %}"href="{{site.baseurl}}/index">Home</a>
-				<a class="{% if page.url == 'camera' %}current{% endif %}"href="{{site.baseurl}}/cameras" >Cameras</a>
-				<a class="{% if page.url == 'about' %}current{% endif %}"href="{{site.baseurl}}/about" >About</a>
+		<nav class="nav-ls" role="navigation">
+				<a class="{% if page.url == '/' %}current{% endif %}"href="{{site.baseurl}}/"><span>Home</span></a>
+				<a class="{% if page.url == 'camera' %}current{% endif %}"href="{{site.baseurl}}/product/" >Products</a>
+				<a class="{% if page.url == 'about' %}current{% endif %}"href="{{site.baseurl}}/about/" >About</a>
 		</nav>
     
-<form class="top-right">
+<form class="top-right" role="search">
 
 		<p class="expandSearch">
 			<input type="text" placeholder="Search" />
@@ -54,6 +54,7 @@
 	</form>          
 
 </header>
+    
     {% if page.showbanner %}
     <div class="banner">
         <h2>{{page.bannertext}}</h2>
@@ -63,38 +64,32 @@
     
 <div class="grid">
     <div class="unit unit-s-1 unit-m-1-2 unit-l-1-2">
-        <h2 class="padding">Film</h2>
         <img class="img-flex padding" src="http://placehold.it/640x480" alt="">
     </div>
     <div class="unit unit-s-1-2 unit-m-1-2 unit-l-1-2">
-        <h2 class="padding">Lenses</h2>
         <img class="img-flex padding" src="http://placehold.it/640x480" alt="">
     </div>  
 </div>
     
 <div class="grid">
     <div class="unit unit-s-1 unit-m-1-4 unit-l-1-4">
-        <h2 class="padding">Polaroid</h2>
         <img class="img-flex padding" src="http://placehold.it/640x480" alt="">
     </div>
     <div class="unit unit-s-1-4 unit-m-1-4 unit-l-1-4">
-        <h2 class="padding">Nikon</h2>
         <img class="img-flex padding" src="http://placehold.it/640x480" alt="">
     </div>  
     <div class="unit unit-s-1 unit-m-1-4 unit-l-1-4">
-        <h2 class="padding">Pentri</h2>
         <img class="img-flex padding" src="http://placehold.it/640x480" alt="">
     </div>
     <div class="unit unit-s-1-4 unit-m-1-4 unit-l-1-4">
-        <h2 class="padding">Yushica</h2>
         <img class="img-flex padding" src="http://placehold.it/640x480" alt="">
     </div>  
 </div>
     
-<footer>
+<footer role="contentinfo">
 		<nav class="nav-footer">
 			<a href="/index">home</a>
-			<a href="/cameras">cameras</a>
+			<a href="/product">products</a>
 			<a href="/about">about</a>
 		</nav>
 

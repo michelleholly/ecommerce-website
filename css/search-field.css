@@ -3,10 +3,6 @@
 	padding: 0px;
 }
 
-*, :active{
-	outline: none!important;
-}
-
 body{
 	font-family: arial, sans-serif;
 	padding: 40px;
