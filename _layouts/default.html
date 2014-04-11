@@ -7,19 +7,7 @@
     <meta name="mobileoptimized" content="240">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link href="http://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
-    <link href="{{site.baseurl}}/css/typography.css" rel="stylesheet">
-    <link href="{{site.baseurl}}/css/buttons.css" rel="stylesheet">
-    <link href="{{site.baseurl}}/css/common.css" rel="stylesheet">
-    <link href="{{site.baseurl}}/css/embeded.css" rel="stylesheet">
-    <link href="{{site.baseurl}}/css/footer.css" rel="stylesheet">
-    <link href="{{site.baseurl}}/css/grid.css" rel="stylesheet">
-    <link href="{{site.baseurl}}/css/header.css" rel="stylesheet">
-    <link href="{{site.baseurl}}/css/icons.css" rel="stylesheet">
-    <link href="{{site.baseurl}}/css/list-group.css" rel="stylesheet">
-    <link href="{{site.baseurl}}/css/media-object.css" rel="stylesheet">
-    <link href="{{site.baseurl}}/css/product-list-item.css" rel="stylesheet">
-    <link href="{{site.baseurl}}/css/product.css" rel="stylesheet">
-    <link href="{{site.baseurl}}/css/search-field.css" rel="stylesheet">
+    <link href="{{site.baseurl}}/css/main.css" rel="stylesheet">
     
 </head>
 <body>
@@ -28,13 +16,13 @@
 		<a href="#nav" class="nav-btn hide-text"></a>
 		<nav class="nav nav-top" data-state="collapsed">
 				<a class="{% if page.url == '/' %}current{% endif %}"href="{{site.baseurl}}/"><span>Home</span></a>
-				<a class="{% if page.url == 'camera' %}current{% endif %}"href="{{site.baseurl}}/product/">Products</a>
+				<a class="{% if page.url == 'camera' %}current{% endif %}"href="{{site.baseurl}}/products-page/">Products</a>
 				<a class="{% if page.url == 'about' %}current{% endif %}"href="{{site.baseurl}}/about/">About</a>
 		</nav>
 		
 		<nav class="nav-ls" role="navigation">
 				<a class="{% if page.url == '/' %}current{% endif %}"href="{{site.baseurl}}/"><span>Home</span></a>
-				<a class="{% if page.url == 'camera' %}current{% endif %}"href="{{site.baseurl}}/product/" >Products</a>
+				<a class="{% if page.url == 'camera' %}current{% endif %}"href="{{site.baseurl}}/products-page/" >Products</a>
 				<a class="{% if page.url == 'about' %}current{% endif %}"href="{{site.baseurl}}/about/" >About</a>
 		</nav>
     
@@ -42,7 +30,7 @@
 
 		<p class="expandSearch">
 			<input type="text" placeholder="Search" />
-			<a href="#">
+			<a href="{{site.baseurl}}/styleguide/search-results/">
 				<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="20px" height="20px" viewBox="375.045 607.885 30.959 30.33" enable-background="new 375.045 607.885 30.959 30.33" xml:space="preserve">
 					<path fill="#494949" d="M405.047,633.805l-7.007-6.542c-0.129-0.121-0.267-0.226-0.408-0.319c1.277-1.939,2.025-4.258,2.025-6.753 c0-6.796-5.51-12.306-12.307-12.306s-12.306,5.51-12.306,12.306s5.509,12.306,12.306,12.306c2.565,0,4.945-0.786,6.916-2.128 c0.122,0.172,0.257,0.337,0.418,0.488l7.006,6.542c1.122,1.048,2.783,1.093,3.709,0.101 C406.327,636.507,406.169,634.853,405.047,633.805z M387.351,629.051c-4.893,0-8.86-3.967-8.86-8.86s3.967-8.86,8.86-8.86 s8.86,3.967,8.86,8.86S392.244,629.051,387.351,629.051z"/>
 				</svg>
@@ -55,18 +43,18 @@
 
 </header>
     
-    {% if page.showbanner %}
-    <div class="banner">
-        <h2>{{page.bannertext}}</h2>
-    </div>
-    {% endif %}
+{% if.page.showbanner %}	
+<div class="banner">
+	<h2>{{page.bannertext}}</h2>
+</div>
+{% endif %}
+		
 {{content}}
     
-
 <footer role="contentinfo">
 		<nav class="nav-footer">
 			<a href="/index">home</a>
-			<a href="/product">products</a>
+			<a href="/products-page">products</a>
 			<a href="/about">about</a>
 		</nav>
 
