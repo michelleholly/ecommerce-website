@@ -150,8 +150,7 @@ header{
 .banner{
     width: 95%;
     height: 20rem;
-    background: rgba(59,203,187,1.00)
-    background-image: image(src="{{site.baseurl}}/images/camera-lens-promo.jpg") no-repeat center center;]
+    background: url("{{site.baseurl}}/images/camera-lens-promo.jpg") no-repeat center center;]
     background-size: cover;
     margin: 5rem 2rem;
 }

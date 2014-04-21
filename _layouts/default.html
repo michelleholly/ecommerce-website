@@ -18,15 +18,17 @@
 				<a class="{% if page.url == '/' %}current{% endif %}"href="{{site.baseurl}}/"><span>Home</span></a>
 				<a class="{% if page.url == 'camera' %}current{% endif %}"href="{{site.baseurl}}/products-page/">Products</a>
 				<a class="{% if page.url == 'about' %}current{% endif %}"href="{{site.baseurl}}/about/">About</a>
+                <a class="{% if page.url == 'your-cart' %}current{% endif %}"href="{{site.baseurl}}/your-cart/" >Your Cart</a>
 		</nav>
 		
 		<nav class="nav-ls" role="navigation">
 				<a class="{% if page.url == '/' %}current{% endif %}"href="{{site.baseurl}}/"><span>Home</span></a>
 				<a class="{% if page.url == 'camera' %}current{% endif %}"href="{{site.baseurl}}/products-page/" >Products</a>
 				<a class="{% if page.url == 'about' %}current{% endif %}"href="{{site.baseurl}}/about/" >About</a>
+                <a class="{% if page.url == 'your-cart' %}current{% endif %}"href="{{site.baseurl}}/your-cart/" >Your Cart</a>
 		</nav>
     
-<form class="top-right" role="search">
+<form class="top-right" action="{{site.baseurl}}/search/" role="search">
 
 		<p class="expandSearch">
 			<input type="text" placeholder="Search" />
@@ -56,6 +58,7 @@
 			<a href="/index">home</a>
 			<a href="/products-page">products</a>
 			<a href="/about">about</a>
+            <a href="/your-cart">your cart</a>
 		</nav>
 
     <ul class="social inline-list-style">
