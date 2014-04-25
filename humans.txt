@@ -1,0 +1,18 @@
+# humanstxt.org
+
+# TEAM
+
+
+
+---
+
+# THANKS
+
+All images are taken and edited by ©Michelle Dugas
+
+---
+
+# TECHNOLOGY
+
+Search field created by codepen.
+http://codepen.io/alexoliverwd/pen/gKnbo
